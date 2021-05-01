@@ -8,9 +8,11 @@
 // The DallasTemperature library can do all this work for you!
 // http://milesburton.com/Dallas_Temperature_Control_Library
 
+// Change the definition to your pin!
+#define DS18B20_DATA_PIN D7
 
 
-OneWire ds(PA5); // on pin 10 (a 4.7K resistor is necessary)
+OneWire ds(DS18B20_DATA_PIN); // on pin 10 (a 4.7K resistor is necessary)
 
 void setup(void)
 {

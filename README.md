@@ -8,7 +8,7 @@ Example program for using DS18B20 with [onewire-mbed-os](https://github.com/alwi
 Import this program to your workspace using mbed-cli using the following command:
 
 ```sh
-mbed import https://github.com/alwint3r/example-onewire-mbed-os
+mbed import https://github.com/alwint3r/ds18b20-example-onewire-mbed-os
 ```
 
 ## Compile and Flash the Program
